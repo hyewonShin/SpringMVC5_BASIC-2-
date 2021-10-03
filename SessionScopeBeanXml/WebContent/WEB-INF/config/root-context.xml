@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	   <!-- 클래스를  빈으로 등록 -->
+	   <!-- 타입으로 저장  -->
+	   <bean class="kr.co.hyewon.beans.DataBean1" scope="session" />
+	   
+	   <!-- id로 이름 지정 -->
+	   <bean class="kr.co.hyewon.beans.DataBean2" scope="session" id='sessionBean2'/> 
+
+</beans>
